@@ -1,0 +1,17 @@
+<div class="d-inline-block" ngbDropdown #myDrop="ngbDropdown">
+  <button
+    type="button"
+    class="btn btn-warning"
+    id="dropdownManual"
+    ngbDropdownAnchor
+    (focus)="myDrop.open()"
+  >
+    <span class="navbar-toggler-icon"></span>
+    Danh mục
+  </button>
+  <div ngbDropdownMenu aria-labelledby="dropdownManual">
+    <button ngbDropdownItem>Action - 1</button>
+    <button ngbDropdownItem>Another Action</button>
+    <button ngbDropdownItem>Something else is here</button>
+  </div>
+</div>

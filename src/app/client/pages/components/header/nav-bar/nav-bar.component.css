@@ -1,0 +1,9 @@
+.navbar-brand {
+    width: 10%;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
