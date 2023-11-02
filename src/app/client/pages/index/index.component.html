@@ -1,3 +1,4 @@
+<app-heroes></app-heroes>
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
   <div *ngFor="let ads of ListClassifiedAds">
     <div class="col">
@@ -16,7 +17,7 @@
           </p>
           <div class="d-flex justify-content-between align-items-center">
             <div class="btn-group">
-              <button type="button" class="btn btn-sm btn-outline-secondary">
+              <button type="button" class="btn btn-sm btn-outline-secondary" routerLink="/client/index/tinraovat/{{ads.id}}">
                 Xem thêm
               </button>
               <button type="button" class="btn btn-sm btn-outline-secondary">

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IndexComponent } from './pages/index/index.component';
+import { IndexClientComponent } from './pages/index/index.component';
 import { DetailsComponent } from './pages/details/details.component';
 import { HeaderComponent } from './pages/components/header/header.component';
 import { NavBarComponent } from './pages/components/header/nav-bar/nav-bar.component';
@@ -12,11 +12,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './pages/components/footer/footer.component';
 import { HeroesComponent } from './pages/components/heroes/heroes.component';
 import { IndexPaginationComponent } from './pages/index/index-pagination/index-pagination.component';
+import { LoginComponent } from './pages/login/login.component';
+import { AddClassifiedAdsComponent } from './pages/add-classified-ads/add-classified-ads.component';
 
 @NgModule({
   declarations: [
     ClientComponent,
-    IndexComponent,
+    IndexClientComponent,
     DetailsComponent,
     HeaderComponent,
     NavBarComponent,
@@ -25,6 +27,8 @@ import { IndexPaginationComponent } from './pages/index/index-pagination/index-p
     FooterComponent,
     HeroesComponent,
     IndexPaginationComponent,
+    LoginComponent,
+    AddClassifiedAdsComponent,
   ],
   imports: [CommonModule, AppRoutingModule, NgbModule],
 })

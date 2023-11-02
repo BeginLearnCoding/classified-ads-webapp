@@ -8,7 +8,7 @@ import { ClassifiedAdsSeederService } from '../../core/services/classied-ads-see
   styleUrls: ['./index.component.css'],
 })
 /* */
-export class IndexComponent implements OnInit {
+export class IndexClientComponent implements OnInit {
   ListClassifiedAds: ClassifiedAds[] = [];
 
   constructor(
